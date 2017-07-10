@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#menu, #content{
+	width: 800px;
+	margin: 10px auto;
+	overflow: hidden;
+	background-color: lightgray;
+}
+
+#menu ul{
+	list-style-type: none;
+}
+
+#menu ul li{
+	width: 100px;
+	margin: 10px 0 10px 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: orange;
+	float: left;
+	color: black;
+	cursor: pointer;
+	font-size: 13px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+#menu ul li.active{
+	background-color: black;
+	color: orange;
+}
+
+table {
+    border-color: black;
+    width: 800px;
+    /*margin: 10px auto;*/
+    background-color: lightgray;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+button {
+    display: block;
+    margin: auto;
+    
+    /*padding: 0;*/
+    
+}
